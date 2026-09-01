@@ -1,0 +1,76 @@
+{
+  "total": 8,
+  "results": [
+    {
+      "account_id": "HH10234",
+      "risk_score": 0.91,
+      "rank": 1,
+      "top_reasons": [
+        "Consumption dropped 62% vs same period last year",
+        "14-day flatline in daily readings",
+        "Missing readings spike in last 30 days"
+      ]
+    },
+    {
+      "account_id": "HH88213",
+      "risk_score": 0.87,
+      "rank": 2,
+      "top_reasons": [
+        "Usage far below similar households in same area",
+        "Sudden variance collapse after meter reading date"
+      ]
+    },
+    {
+      "account_id": "HH40021",
+      "risk_score": 0.79,
+      "rank": 3,
+      "top_reasons": [
+        "Weekday/weekend pattern flattened over last 60 days",
+        "Repeated exact-zero readings"
+      ]
+    },
+    {
+      "account_id": "HH55678",
+      "risk_score": 0.64,
+      "rank": 4,
+      "top_reasons": [
+        "Missingness rate rose from 5% to 40% in Q3",
+        "Consumption 30% below seasonal baseline"
+      ]
+    },
+    {
+      "account_id": "HH19045",
+      "risk_score": 0.58,
+      "rank": 5,
+      "top_reasons": [
+        "Minor drop vs peer households",
+        "Short flatline period detected"
+      ]
+    },
+    {
+      "account_id": "HH72390",
+      "risk_score": 0.34,
+      "rank": 6,
+      "top_reasons": [
+        "Usage within normal seasonal range",
+        "No significant anomalies detected"
+      ]
+    },
+    {
+      "account_id": "HH60112",
+      "risk_score": 0.21,
+      "rank": 7,
+      "top_reasons": [
+        "Consistent with historical baseline"
+      ]
+    },
+    {
+      "account_id": "HH30567",
+      "risk_score": 0.12,
+      "rank": 8,
+      "top_reasons": [
+        "No anomalies detected"
+      ]
+    }
+  ]
+}

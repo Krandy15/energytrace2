@@ -1,0 +1,27 @@
+# --- frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/*.local
+
+# --- backend ---
+backend/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+backend/.env
+
+# --- ai ---
+ai/__pycache__/
+ai/**/__pycache__/
+ai/.venv/
+ai/venv/
+# raw_dataset.csv is ~156MB — GitHub rejects pushes over 100MB.
+# Keep it locally / in cloud storage / Git LFS; do not commit as-is.
+ai/data/raw_dataset.csv
+
+# --- general ---
+.DS_Store
+*.log
+.vscode/
+.idea/

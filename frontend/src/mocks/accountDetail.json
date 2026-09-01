@@ -1,0 +1,26 @@
+{
+  "account_id": "HH10234",
+  "risk_score": 0.91,
+  "rank": 1,
+  "top_reasons": [
+    "Consumption dropped 62% vs same period last year",
+    "14-day flatline in daily readings",
+    "Missing readings spike in last 30 days"
+  ],
+  "daily_readings": [
+    { "date": "2015-11-01", "kwh": 8.2, "was_missing": false },
+    { "date": "2015-11-02", "kwh": 7.9, "was_missing": false },
+    { "date": "2015-11-03", "kwh": null, "was_missing": true },
+    { "date": "2015-11-04", "kwh": 8.1, "was_missing": false },
+    { "date": "2015-11-05", "kwh": 7.6, "was_missing": false },
+    { "date": "2015-11-06", "kwh": 2.1, "was_missing": false },
+    { "date": "2015-11-07", "kwh": 2.0, "was_missing": false },
+    { "date": "2015-11-08", "kwh": null, "was_missing": true },
+    { "date": "2015-11-09", "kwh": 1.9, "was_missing": false },
+    { "date": "2015-11-10", "kwh": 2.0, "was_missing": false },
+    { "date": "2015-11-11", "kwh": 2.0, "was_missing": false },
+    { "date": "2015-11-12", "kwh": 1.9, "was_missing": false },
+    { "date": "2015-11-13", "kwh": null, "was_missing": true },
+    { "date": "2015-11-14", "kwh": 2.0, "was_missing": false }
+  ]
+}

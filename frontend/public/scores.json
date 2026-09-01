@@ -1,0 +1,3365 @@
+[
+  {
+    "account_id": "HH10037",
+    "risk_score": 1.0,
+    "rank": 1,
+    "top_reasons": [
+      "consumption dropped 100% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "elevated missing-reading rate over last 90 days (17% missing)",
+      "missing readings spike in last 30 days (10% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10023",
+    "risk_score": 0.9766,
+    "rank": 2,
+    "top_reasons": [
+      "consumption dropped 100% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "missing readings spike in last 30 days (37% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10090",
+    "risk_score": 0.9674,
+    "rank": 3,
+    "top_reasons": [
+      "consumption dropped 99% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "missing readings spike in last 30 days (37% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10024",
+    "risk_score": 0.9644,
+    "rank": 4,
+    "top_reasons": [
+      "consumption dropped 99% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "elevated missing-reading rate over last 90 days (20% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10098",
+    "risk_score": 0.9591,
+    "rank": 5,
+    "top_reasons": [
+      "consumption dropped 99% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10006",
+    "risk_score": 0.9568,
+    "rank": 6,
+    "top_reasons": [
+      "consumption dropped 25% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "206-day flatline in daily readings"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10196",
+    "risk_score": 0.9553,
+    "rank": 7,
+    "top_reasons": [
+      "consumption dropped 100% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10282",
+    "risk_score": 0.9549,
+    "rank": 8,
+    "top_reasons": [
+      "consumption dropped 99% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "missing readings spike in last 30 days (23% missing)",
+      "elevated missing-reading rate over last 90 days (22% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10186",
+    "risk_score": 0.9523,
+    "rank": 9,
+    "top_reasons": [
+      "consumption dropped 100% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "elevated missing-reading rate over last 90 days (22% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10209",
+    "risk_score": 0.9486,
+    "rank": 10,
+    "top_reasons": [
+      "consumption dropped 75% vs same period last year",
+      "missing readings spike in last 30 days (37% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10260",
+    "risk_score": 0.9465,
+    "rank": 11,
+    "top_reasons": [
+      "consumption dropped 36% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "181-day flatline in daily readings",
+      "elevated missing-reading rate over last 90 days (20% missing)",
+      "missing readings spike in last 30 days (13% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10235",
+    "risk_score": 0.9409,
+    "rank": 12,
+    "top_reasons": [
+      "unusually constant daily usage (little day-to-day variation)",
+      "358-day flatline in daily readings",
+      "consumption dropped 6% vs same period last year"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10052",
+    "risk_score": 0.9407,
+    "rank": 13,
+    "top_reasons": [
+      "consumption dropped 32% vs same period last year",
+      "unusually constant daily usage (little day-to-day variation)",
+      "298-day flatline in daily readings"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10159",
+    "risk_score": 0.895,
+    "rank": 14,
+    "top_reasons": [
+      "unusually constant daily usage (little day-to-day variation)",
+      "351-day flatline in daily readings",
+      "consumption dropped 5% vs same period last year",
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10174",
+    "risk_score": 0.8828,
+    "rank": 15,
+    "top_reasons": [
+      "consumption dropped 78% vs same period last year",
+      "elevated missing-reading rate over last 90 days (14% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10192",
+    "risk_score": 0.8708,
+    "rank": 16,
+    "top_reasons": [
+      "unusually constant daily usage (little day-to-day variation)",
+      "145-day flatline in daily readings"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10032",
+    "risk_score": 0.8038,
+    "rank": 17,
+    "top_reasons": [
+      "consumption dropped 56% vs same period last year",
+      "missing readings spike in last 30 days (43% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10120",
+    "risk_score": 0.7934,
+    "rank": 18,
+    "top_reasons": [
+      "consumption dropped 79% vs same period last year",
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10096",
+    "risk_score": 0.7705,
+    "rank": 19,
+    "top_reasons": [
+      "consumption dropped 78% vs same period last year",
+      "elevated missing-reading rate over last 90 days (19% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10205",
+    "risk_score": 0.7692,
+    "rank": 20,
+    "top_reasons": [
+      "consumption dropped 51% vs same period last year",
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10146",
+    "risk_score": 0.7591,
+    "rank": 21,
+    "top_reasons": [
+      "unusually constant daily usage (little day-to-day variation)",
+      "161-day flatline in daily readings"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10187",
+    "risk_score": 0.7492,
+    "rank": 22,
+    "top_reasons": [
+      "consumption dropped 72% vs same period last year",
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10114",
+    "risk_score": 0.7305,
+    "rank": 23,
+    "top_reasons": [
+      "consumption dropped 55% vs same period last year",
+      "missing readings spike in last 30 days (27% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10185",
+    "risk_score": 0.7155,
+    "rank": 24,
+    "top_reasons": [
+      "consumption dropped 64% vs same period last year",
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 1,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10275",
+    "risk_score": 0.3259,
+    "rank": 25,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (11% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10163",
+    "risk_score": 0.3004,
+    "rank": 26,
+    "top_reasons": [
+      "missing readings spike in last 30 days (43% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10020",
+    "risk_score": 0.2914,
+    "rank": 27,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (17% missing)",
+      "missing readings spike in last 30 days (13% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10050",
+    "risk_score": 0.2783,
+    "rank": 28,
+    "top_reasons": [
+      "3-day flatline in daily readings"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10048",
+    "risk_score": 0.2698,
+    "rank": 29,
+    "top_reasons": [
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10007",
+    "risk_score": 0.2671,
+    "rank": 30,
+    "top_reasons": [
+      "consumption dropped 13% vs same period last year"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10239",
+    "risk_score": 0.2648,
+    "rank": 31,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (32% missing)",
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10119",
+    "risk_score": 0.2621,
+    "rank": 32,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10042",
+    "risk_score": 0.2437,
+    "rank": 33,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10044",
+    "risk_score": 0.2381,
+    "rank": 34,
+    "top_reasons": [
+      "missing readings spike in last 30 days (37% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10055",
+    "risk_score": 0.2356,
+    "rank": 35,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (21% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10036",
+    "risk_score": 0.2334,
+    "rank": 36,
+    "top_reasons": [
+      "missing readings spike in last 30 days (57% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10115",
+    "risk_score": 0.2243,
+    "rank": 37,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (19% missing)",
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10299",
+    "risk_score": 0.2214,
+    "rank": 38,
+    "top_reasons": [
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10168",
+    "risk_score": 0.2192,
+    "rank": 39,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10266",
+    "risk_score": 0.2146,
+    "rank": 40,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10003",
+    "risk_score": 0.2131,
+    "rank": 41,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10092",
+    "risk_score": 0.2119,
+    "rank": 42,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (17% missing)",
+      "missing readings spike in last 30 days (10% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10102",
+    "risk_score": 0.2052,
+    "rank": 43,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10222",
+    "risk_score": 0.2048,
+    "rank": 44,
+    "top_reasons": [
+      "missing readings spike in last 30 days (23% missing)",
+      "elevated missing-reading rate over last 90 days (22% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10261",
+    "risk_score": 0.2032,
+    "rank": 45,
+    "top_reasons": [
+      "3-day flatline in daily readings",
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10063",
+    "risk_score": 0.2022,
+    "rank": 46,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (22% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10141",
+    "risk_score": 0.1995,
+    "rank": 47,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10099",
+    "risk_score": 0.1965,
+    "rank": 48,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10162",
+    "risk_score": 0.1916,
+    "rank": 49,
+    "top_reasons": [
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10110",
+    "risk_score": 0.1898,
+    "rank": 50,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (12% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10212",
+    "risk_score": 0.1898,
+    "rank": 51,
+    "top_reasons": [
+      "usage far above similar households in the same period",
+      "elevated missing-reading rate over last 90 days (22% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10030",
+    "risk_score": 0.1891,
+    "rank": 52,
+    "top_reasons": [
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10056",
+    "risk_score": 0.1827,
+    "rank": 53,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10022",
+    "risk_score": 0.1826,
+    "rank": 54,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (18% missing)",
+      "missing readings spike in last 30 days (13% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10079",
+    "risk_score": 0.1813,
+    "rank": 55,
+    "top_reasons": [
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10001",
+    "risk_score": 0.1741,
+    "rank": 56,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (20% missing)",
+      "missing readings spike in last 30 days (7% missing)",
+      "usage far above similar households in the same period"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10028",
+    "risk_score": 0.1725,
+    "rank": 57,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (22% missing)",
+      "consumption dropped 11% vs same period last year"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10136",
+    "risk_score": 0.1686,
+    "rank": 58,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10274",
+    "risk_score": 0.167,
+    "rank": 59,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (19% missing)",
+      "missing readings spike in last 30 days (13% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10296",
+    "risk_score": 0.1651,
+    "rank": 60,
+    "top_reasons": [
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10177",
+    "risk_score": 0.1651,
+    "rank": 61,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (34% missing)",
+      "missing readings spike in last 30 days (43% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10150",
+    "risk_score": 0.1646,
+    "rank": 62,
+    "top_reasons": [
+      "usage far above similar households in the same period"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10068",
+    "risk_score": 0.1638,
+    "rank": 63,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (22% missing)",
+      "consumption dropped 10% vs same period last year"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10082",
+    "risk_score": 0.1636,
+    "rank": 64,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10188",
+    "risk_score": 0.1608,
+    "rank": 65,
+    "top_reasons": [
+      "missing readings spike in last 30 days (40% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10202",
+    "risk_score": 0.1605,
+    "rank": 66,
+    "top_reasons": [
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10129",
+    "risk_score": 0.16,
+    "rank": 67,
+    "top_reasons": [
+      "missing readings spike in last 30 days (40% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10019",
+    "risk_score": 0.1587,
+    "rank": 68,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10103",
+    "risk_score": 0.1586,
+    "rank": 69,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10147",
+    "risk_score": 0.1538,
+    "rank": 70,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (21% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10116",
+    "risk_score": 0.1533,
+    "rank": 71,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10233",
+    "risk_score": 0.1519,
+    "rank": 72,
+    "top_reasons": [
+      "usage far above similar households in the same period",
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10255",
+    "risk_score": 0.1507,
+    "rank": 73,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (36% missing)",
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10210",
+    "risk_score": 0.1499,
+    "rank": 74,
+    "top_reasons": [
+      "missing readings spike in last 30 days (40% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10133",
+    "risk_score": 0.1488,
+    "rank": 75,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (22% missing)",
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10072",
+    "risk_score": 0.1486,
+    "rank": 76,
+    "top_reasons": [
+      "consumption dropped 6% vs same period last year"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10242",
+    "risk_score": 0.1484,
+    "rank": 77,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10232",
+    "risk_score": 0.1443,
+    "rank": 78,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (22% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10127",
+    "risk_score": 0.1414,
+    "rank": 79,
+    "top_reasons": [
+      "consumption dropped 1% vs same period last year",
+      "missing readings spike in last 30 days (33% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10195",
+    "risk_score": 0.1408,
+    "rank": 80,
+    "top_reasons": [
+      "missing readings spike in last 30 days (40% missing)",
+      "elevated missing-reading rate over last 90 days (30% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10249",
+    "risk_score": 0.1401,
+    "rank": 81,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10265",
+    "risk_score": 0.1381,
+    "rank": 82,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10285",
+    "risk_score": 0.1354,
+    "rank": 83,
+    "top_reasons": [
+      "missing readings spike in last 30 days (13% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10105",
+    "risk_score": 0.1338,
+    "rank": 84,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10199",
+    "risk_score": 0.1336,
+    "rank": 85,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10034",
+    "risk_score": 0.1317,
+    "rank": 86,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (19% missing)",
+      "missing readings spike in last 30 days (13% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10106",
+    "risk_score": 0.128,
+    "rank": 87,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10139",
+    "risk_score": 0.1278,
+    "rank": 88,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10226",
+    "risk_score": 0.1275,
+    "rank": 89,
+    "top_reasons": [
+      "consumption dropped 6% vs same period last year"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10156",
+    "risk_score": 0.1271,
+    "rank": 90,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10262",
+    "risk_score": 0.1268,
+    "rank": 91,
+    "top_reasons": [
+      "missing readings spike in last 30 days (17% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10280",
+    "risk_score": 0.1257,
+    "rank": 92,
+    "top_reasons": [
+      "missing readings spike in last 30 days (23% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10250",
+    "risk_score": 0.1257,
+    "rank": 93,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (21% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10191",
+    "risk_score": 0.1255,
+    "rank": 94,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10049",
+    "risk_score": 0.1248,
+    "rank": 95,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (21% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10238",
+    "risk_score": 0.1247,
+    "rank": 96,
+    "top_reasons": [
+      "elevated missing-reading rate over last 90 days (19% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10167",
+    "risk_score": 0.1244,
+    "rank": 97,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10067",
+    "risk_score": 0.1222,
+    "rank": 98,
+    "top_reasons": [
+      "missing readings spike in last 30 days (13% missing)",
+      "elevated missing-reading rate over last 90 days (17% missing)"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10297",
+    "risk_score": 0.1221,
+    "rank": 99,
+    "top_reasons": [
+      "missing readings spike in last 30 days (33% missing)",
+      "consumption dropped 5% vs same period last year"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10086",
+    "risk_score": 0.1193,
+    "rank": 100,
+    "top_reasons": [
+      "flagged by model on overall usage pattern"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10091",
+    "risk_score": 0.1189,
+    "rank": 101,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10169",
+    "risk_score": 0.1188,
+    "rank": 102,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10254",
+    "risk_score": 0.1184,
+    "rank": 103,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10228",
+    "risk_score": 0.1173,
+    "rank": 104,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10076",
+    "risk_score": 0.1169,
+    "rank": 105,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10270",
+    "risk_score": 0.1166,
+    "rank": 106,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10252",
+    "risk_score": 0.1156,
+    "rank": 107,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10126",
+    "risk_score": 0.1145,
+    "rank": 108,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10153",
+    "risk_score": 0.1144,
+    "rank": 109,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10134",
+    "risk_score": 0.1141,
+    "rank": 110,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10016",
+    "risk_score": 0.114,
+    "rank": 111,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10215",
+    "risk_score": 0.1138,
+    "rank": 112,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10183",
+    "risk_score": 0.1125,
+    "rank": 113,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10173",
+    "risk_score": 0.1116,
+    "rank": 114,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10246",
+    "risk_score": 0.1108,
+    "rank": 115,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10100",
+    "risk_score": 0.1107,
+    "rank": 116,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10223",
+    "risk_score": 0.1098,
+    "rank": 117,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10208",
+    "risk_score": 0.1073,
+    "rank": 118,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10293",
+    "risk_score": 0.107,
+    "rank": 119,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10061",
+    "risk_score": 0.1061,
+    "rank": 120,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10184",
+    "risk_score": 0.1055,
+    "rank": 121,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10107",
+    "risk_score": 0.1052,
+    "rank": 122,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10093",
+    "risk_score": 0.1037,
+    "rank": 123,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10015",
+    "risk_score": 0.1017,
+    "rank": 124,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10011",
+    "risk_score": 0.1008,
+    "rank": 125,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10231",
+    "risk_score": 0.0999,
+    "rank": 126,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10276",
+    "risk_score": 0.0997,
+    "rank": 127,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10084",
+    "risk_score": 0.0993,
+    "rank": 128,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10021",
+    "risk_score": 0.0978,
+    "rank": 129,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10025",
+    "risk_score": 0.0972,
+    "rank": 130,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10283",
+    "risk_score": 0.0958,
+    "rank": 131,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10113",
+    "risk_score": 0.0957,
+    "rank": 132,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10078",
+    "risk_score": 0.0949,
+    "rank": 133,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10058",
+    "risk_score": 0.0944,
+    "rank": 134,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10190",
+    "risk_score": 0.094,
+    "rank": 135,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10157",
+    "risk_score": 0.0926,
+    "rank": 136,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10288",
+    "risk_score": 0.091,
+    "rank": 137,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10243",
+    "risk_score": 0.0907,
+    "rank": 138,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10201",
+    "risk_score": 0.0904,
+    "rank": 139,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10155",
+    "risk_score": 0.089,
+    "rank": 140,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10070",
+    "risk_score": 0.0888,
+    "rank": 141,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10214",
+    "risk_score": 0.0886,
+    "rank": 142,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10026",
+    "risk_score": 0.0885,
+    "rank": 143,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10181",
+    "risk_score": 0.0882,
+    "rank": 144,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10229",
+    "risk_score": 0.0874,
+    "rank": 145,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10040",
+    "risk_score": 0.0874,
+    "rank": 146,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10085",
+    "risk_score": 0.0874,
+    "rank": 147,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10057",
+    "risk_score": 0.0868,
+    "rank": 148,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10263",
+    "risk_score": 0.0864,
+    "rank": 149,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10046",
+    "risk_score": 0.0859,
+    "rank": 150,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10175",
+    "risk_score": 0.0846,
+    "rank": 151,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10203",
+    "risk_score": 0.0846,
+    "rank": 152,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10135",
+    "risk_score": 0.0842,
+    "rank": 153,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10166",
+    "risk_score": 0.0818,
+    "rank": 154,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10267",
+    "risk_score": 0.0808,
+    "rank": 155,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10284",
+    "risk_score": 0.0806,
+    "rank": 156,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10069",
+    "risk_score": 0.0802,
+    "rank": 157,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10094",
+    "risk_score": 0.0798,
+    "rank": 158,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10062",
+    "risk_score": 0.0793,
+    "rank": 159,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10027",
+    "risk_score": 0.0792,
+    "rank": 160,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10066",
+    "risk_score": 0.079,
+    "rank": 161,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10089",
+    "risk_score": 0.0788,
+    "rank": 162,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10047",
+    "risk_score": 0.0786,
+    "rank": 163,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10075",
+    "risk_score": 0.0785,
+    "rank": 164,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10053",
+    "risk_score": 0.0784,
+    "rank": 165,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10111",
+    "risk_score": 0.0776,
+    "rank": 166,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10224",
+    "risk_score": 0.0776,
+    "rank": 167,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10207",
+    "risk_score": 0.0766,
+    "rank": 168,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10258",
+    "risk_score": 0.0746,
+    "rank": 169,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10101",
+    "risk_score": 0.0739,
+    "rank": 170,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10251",
+    "risk_score": 0.0737,
+    "rank": 171,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10217",
+    "risk_score": 0.0736,
+    "rank": 172,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10198",
+    "risk_score": 0.0736,
+    "rank": 173,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10131",
+    "risk_score": 0.0725,
+    "rank": 174,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10158",
+    "risk_score": 0.0725,
+    "rank": 175,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10204",
+    "risk_score": 0.0722,
+    "rank": 176,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10298",
+    "risk_score": 0.0715,
+    "rank": 177,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10160",
+    "risk_score": 0.0712,
+    "rank": 178,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10033",
+    "risk_score": 0.071,
+    "rank": 179,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10009",
+    "risk_score": 0.0702,
+    "rank": 180,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10137",
+    "risk_score": 0.0702,
+    "rank": 181,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10289",
+    "risk_score": 0.0702,
+    "rank": 182,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10142",
+    "risk_score": 0.0692,
+    "rank": 183,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10172",
+    "risk_score": 0.069,
+    "rank": 184,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10060",
+    "risk_score": 0.0683,
+    "rank": 185,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10244",
+    "risk_score": 0.0681,
+    "rank": 186,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10218",
+    "risk_score": 0.068,
+    "rank": 187,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10230",
+    "risk_score": 0.0676,
+    "rank": 188,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10051",
+    "risk_score": 0.0671,
+    "rank": 189,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10294",
+    "risk_score": 0.0655,
+    "rank": 190,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10081",
+    "risk_score": 0.0652,
+    "rank": 191,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10253",
+    "risk_score": 0.0639,
+    "rank": 192,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10170",
+    "risk_score": 0.0624,
+    "rank": 193,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10225",
+    "risk_score": 0.0623,
+    "rank": 194,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10241",
+    "risk_score": 0.0622,
+    "rank": 195,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10073",
+    "risk_score": 0.0617,
+    "rank": 196,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10108",
+    "risk_score": 0.0608,
+    "rank": 197,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10278",
+    "risk_score": 0.0605,
+    "rank": 198,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10259",
+    "risk_score": 0.0604,
+    "rank": 199,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10271",
+    "risk_score": 0.0591,
+    "rank": 200,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10064",
+    "risk_score": 0.0587,
+    "rank": 201,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10143",
+    "risk_score": 0.0585,
+    "rank": 202,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10193",
+    "risk_score": 0.0585,
+    "rank": 203,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10012",
+    "risk_score": 0.0583,
+    "rank": 204,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10008",
+    "risk_score": 0.0581,
+    "rank": 205,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10145",
+    "risk_score": 0.0576,
+    "rank": 206,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10112",
+    "risk_score": 0.0572,
+    "rank": 207,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10290",
+    "risk_score": 0.057,
+    "rank": 208,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10292",
+    "risk_score": 0.0568,
+    "rank": 209,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10138",
+    "risk_score": 0.0568,
+    "rank": 210,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10194",
+    "risk_score": 0.0568,
+    "rank": 211,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10272",
+    "risk_score": 0.0568,
+    "rank": 212,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10171",
+    "risk_score": 0.0564,
+    "rank": 213,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10279",
+    "risk_score": 0.0562,
+    "rank": 214,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10088",
+    "risk_score": 0.0555,
+    "rank": 215,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10178",
+    "risk_score": 0.0555,
+    "rank": 216,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10180",
+    "risk_score": 0.0553,
+    "rank": 217,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10264",
+    "risk_score": 0.0548,
+    "rank": 218,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10273",
+    "risk_score": 0.0547,
+    "rank": 219,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10121",
+    "risk_score": 0.0543,
+    "rank": 220,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10087",
+    "risk_score": 0.0541,
+    "rank": 221,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10095",
+    "risk_score": 0.0538,
+    "rank": 222,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10211",
+    "risk_score": 0.0525,
+    "rank": 223,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10164",
+    "risk_score": 0.0522,
+    "rank": 224,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10237",
+    "risk_score": 0.052,
+    "rank": 225,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10148",
+    "risk_score": 0.0512,
+    "rank": 226,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10176",
+    "risk_score": 0.0512,
+    "rank": 227,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10269",
+    "risk_score": 0.0504,
+    "rank": 228,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10077",
+    "risk_score": 0.0478,
+    "rank": 229,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10097",
+    "risk_score": 0.0478,
+    "rank": 230,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10179",
+    "risk_score": 0.0475,
+    "rank": 231,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10182",
+    "risk_score": 0.0472,
+    "rank": 232,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10054",
+    "risk_score": 0.0472,
+    "rank": 233,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10189",
+    "risk_score": 0.0471,
+    "rank": 234,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10017",
+    "risk_score": 0.0471,
+    "rank": 235,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10248",
+    "risk_score": 0.0467,
+    "rank": 236,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10045",
+    "risk_score": 0.0463,
+    "rank": 237,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10104",
+    "risk_score": 0.0458,
+    "rank": 238,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10268",
+    "risk_score": 0.0456,
+    "rank": 239,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10286",
+    "risk_score": 0.0448,
+    "rank": 240,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10213",
+    "risk_score": 0.0448,
+    "rank": 241,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10128",
+    "risk_score": 0.0447,
+    "rank": 242,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10083",
+    "risk_score": 0.0446,
+    "rank": 243,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10065",
+    "risk_score": 0.044,
+    "rank": 244,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10004",
+    "risk_score": 0.0434,
+    "rank": 245,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10080",
+    "risk_score": 0.0434,
+    "rank": 246,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10029",
+    "risk_score": 0.0432,
+    "rank": 247,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10151",
+    "risk_score": 0.041,
+    "rank": 248,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10122",
+    "risk_score": 0.0409,
+    "rank": 249,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10118",
+    "risk_score": 0.0407,
+    "rank": 250,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10257",
+    "risk_score": 0.04,
+    "rank": 251,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10124",
+    "risk_score": 0.0398,
+    "rank": 252,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10014",
+    "risk_score": 0.039,
+    "rank": 253,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10245",
+    "risk_score": 0.0388,
+    "rank": 254,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10240",
+    "risk_score": 0.0388,
+    "rank": 255,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10010",
+    "risk_score": 0.0387,
+    "rank": 256,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10035",
+    "risk_score": 0.0383,
+    "rank": 257,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10152",
+    "risk_score": 0.0383,
+    "rank": 258,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10144",
+    "risk_score": 0.0383,
+    "rank": 259,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10002",
+    "risk_score": 0.0382,
+    "rank": 260,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10281",
+    "risk_score": 0.0381,
+    "rank": 261,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10216",
+    "risk_score": 0.0378,
+    "rank": 262,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10219",
+    "risk_score": 0.0372,
+    "rank": 263,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10295",
+    "risk_score": 0.0372,
+    "rank": 264,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10031",
+    "risk_score": 0.0366,
+    "rank": 265,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10071",
+    "risk_score": 0.0365,
+    "rank": 266,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10005",
+    "risk_score": 0.0345,
+    "rank": 267,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10165",
+    "risk_score": 0.0335,
+    "rank": 268,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10234",
+    "risk_score": 0.0332,
+    "rank": 269,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10130",
+    "risk_score": 0.0329,
+    "rank": 270,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10000",
+    "risk_score": 0.0328,
+    "rank": 271,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10277",
+    "risk_score": 0.0318,
+    "rank": 272,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10256",
+    "risk_score": 0.0309,
+    "rank": 273,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10043",
+    "risk_score": 0.0307,
+    "rank": 274,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10125",
+    "risk_score": 0.0294,
+    "rank": 275,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10140",
+    "risk_score": 0.0289,
+    "rank": 276,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10039",
+    "risk_score": 0.0286,
+    "rank": 277,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10200",
+    "risk_score": 0.0284,
+    "rank": 278,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10109",
+    "risk_score": 0.0271,
+    "rank": 279,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10123",
+    "risk_score": 0.027,
+    "rank": 280,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10236",
+    "risk_score": 0.027,
+    "rank": 281,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10041",
+    "risk_score": 0.0261,
+    "rank": 282,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10221",
+    "risk_score": 0.0261,
+    "rank": 283,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10161",
+    "risk_score": 0.0234,
+    "rank": 284,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10247",
+    "risk_score": 0.0231,
+    "rank": 285,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10227",
+    "risk_score": 0.0227,
+    "rank": 286,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10038",
+    "risk_score": 0.0213,
+    "rank": 287,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10291",
+    "risk_score": 0.0203,
+    "rank": 288,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10074",
+    "risk_score": 0.0202,
+    "rank": 289,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10197",
+    "risk_score": 0.018,
+    "rank": 290,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10220",
+    "risk_score": 0.0172,
+    "rank": 291,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10154",
+    "risk_score": 0.0156,
+    "rank": 292,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10117",
+    "risk_score": 0.0129,
+    "rank": 293,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10059",
+    "risk_score": 0.0122,
+    "rank": 294,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10149",
+    "risk_score": 0.0114,
+    "rank": 295,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10018",
+    "risk_score": 0.0102,
+    "rank": 296,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10206",
+    "risk_score": 0.0092,
+    "rank": 297,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10287",
+    "risk_score": 0.0089,
+    "rank": 298,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10013",
+    "risk_score": 0.0051,
+    "rank": 299,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  },
+  {
+    "account_id": "HH10132",
+    "risk_score": 0.0,
+    "rank": 300,
+    "top_reasons": [
+      "not in top-ranked explained set"
+    ],
+    "confirmed_theft_label": 0,
+    "last_reading_day": "2016-06-30",
+    "model_version": "v1"
+  }
+]

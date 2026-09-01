@@ -1,0 +1,116 @@
+/* Theme tokens — grid-operations instrument panel, not a generic SaaS dashboard.
+   Change these in one place; components reference the variables, not raw hex. */
+
+:root {
+  --bg-page: #12161d;
+  --bg-panel: #191e27;
+  --bg-panel-raised: #1f2530;
+  --border: #2a313d;
+  --border-strong: #3a4353;
+
+  --text-primary: #e7eaf0;
+  --text-secondary: #9aa4b5;
+  --text-muted: #66707f;
+
+  --risk-high: #e2574c;
+  --risk-high-bg: rgba(226, 87, 76, 0.12);
+  --risk-medium: #e2a73e;
+  --risk-medium-bg: rgba(226, 167, 62, 0.12);
+  --risk-low: #2fa88a;
+  --risk-low-bg: rgba(47, 168, 138, 0.12);
+
+  --font-ui: -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.app-shell {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+.page-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 16px;
+}
+
+.page-header h1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.page-header .meta {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: var(--font-ui);
+  cursor: pointer;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 14px;
+  padding: 0;
+}
+
+.link-button:hover {
+  color: var(--text-primary);
+}
+
+.state-message {
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.state-message .detail {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 8px;
+}

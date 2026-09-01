@@ -4,6 +4,42 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { EffectComposer, Bloom } from '@react-three/postprocessing';
 import { BlendFunction } from 'postprocessing';
 import * as THREE from 'three';
+import allNodes from '../data/mock_400_nodes.json';
+import { getRiskLevel, formatRiskScore } from '../utils/risk';
+
+// Deterministic pseudo-random generator seeded from a string, so the same
+// account always gets the same synthetic telemetry chart on every load,
+// but different accounts get different-looking data.
+function seededRandom(seed) {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) {
+    h = Math.imul(31, h) + seed.charCodeAt(i) | 0;
+  }
+  return function () {
+    h = Math.imul(h ^ (h >>> 15), h | 1);
+    h ^= h + Math.imul(h ^ (h >>> 7), h | 61);
+    return ((h ^ (h >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"];
+
+// Builds a 9-month baseline-vs-actual series whose severity reflects the
+// account's real risk_score: higher risk -> steeper drop-off, so the chart
+// actually tracks the account instead of always showing the same shape.
+function buildTelemetry(accountId, riskScore) {
+  const rand = seededRandom(accountId);
+  const baseLoad = 380 + rand() * 160; // 380-540 kWh baseline range
+  const dropStrength = 0.3 + riskScore * 0.7; // how hard usage falls off
+
+  return MONTHS.map((month, i) => {
+    const baseline = Math.round(baseLoad + (rand() - 0.5) * 40);
+    const progress = i / (MONTHS.length - 1); // 0 -> 1 across the year
+    const falloff = 1 - progress * dropStrength * (0.6 + rand() * 0.5);
+    const actual = Math.max(10, Math.round(baseline * Math.max(falloff, 0.05)));
+    return { month, baseline, actual };
+  });
+}
 
 const DEFAULT_TEST_TELEMETRY = [
   { month: "Jan", baseline: 410, actual: 405 },
@@ -507,22 +543,50 @@ export default function AccountDetail() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    setAccount({
-      account_id: accountId || "HH10234",
-      risk_score: 0.94,
-      metrics: {
-        confidence: 94.2,
-        deviation: "-68.4%",
-        estimated_loss_kwh: "1,640 kWh",
-        tamper_probability: "Critical"
-      },
-      top_reasons: [
-        "Consumption dropped 68.4% vs baseline over the last 90 days",
-        "Weekend nighttime usage flattened to zero-load threshold",
-        "Discrepancy detected against feeder transformer telemetry"
-      ],
-      telemetry: DEFAULT_TEST_TELEMETRY
-    });
+    const id = accountId || "HH10234";
+    const match = allNodes.find(n => n.account_id === id);
+
+    if (match) {
+      const tier = getRiskLevel(match.risk_score);
+      setAccount({
+        account_id: match.account_id,
+        risk_score: match.risk_score,
+        risk_tier: tier,
+        metrics: {
+          confidence: (match.risk_score * 100).toFixed(1),
+          deviation: match.load_deviation,
+          estimated_loss_kwh: `${match.est_loss_kwh.toLocaleString()} kWh`,
+          tamper_probability: tier.label
+        },
+        top_reasons: [
+          match.feeder_zone,
+          match.primary_anomaly,
+          `Risk score ${formatRiskScore(match.risk_score)} — ${tier.label} tier`
+        ],
+        telemetry: buildTelemetry(match.account_id, match.risk_score)
+      });
+    } else {
+      // Fallback demo values for an id that isn't in the dataset
+      // (e.g. someone typed a made-up account number into the URL).
+      const tier = getRiskLevel(0.94);
+      setAccount({
+        account_id: id,
+        risk_score: 0.94,
+        risk_tier: tier,
+        metrics: {
+          confidence: 94.2,
+          deviation: "-68.4%",
+          estimated_loss_kwh: "1,640 kWh",
+          tamper_probability: tier.label
+        },
+        top_reasons: [
+          "Consumption dropped 68.4% vs baseline over the last 90 days",
+          "Weekend nighttime usage flattened to zero-load threshold",
+          "Discrepancy detected against feeder transformer telemetry"
+        ],
+        telemetry: DEFAULT_TEST_TELEMETRY
+      });
+    }
 
     // Trigger dash entry movement & orb integration sequence
     const timer = setTimeout(() => {
@@ -644,12 +708,12 @@ export default function AccountDetail() {
             </div>
             <div style={{
               ...styles.riskBadge,
-              color: '#f43f5e',
-              background: 'rgba(244, 63, 94, 0.15)',
-              border: '1px solid rgba(244, 63, 94, 0.4)',
-              boxShadow: '0 0 20px rgba(244, 63, 94, 0.2)'
+              color: account.risk_tier.color,
+              background: account.risk_tier.bgVar,
+              border: `1px solid ${account.risk_tier.borderVar}`,
+              boxShadow: `0 0 20px ${account.risk_tier.bgVar}`
             }} {...textPopProps}>
-              {(account.risk_score * 100).toFixed(0)}% · CRITICAL
+              {(account.risk_score * 100).toFixed(0)}% · {account.risk_tier.level}
             </div>
           </div>
 
@@ -675,7 +739,7 @@ export default function AccountDetail() {
             </div>
             <div className="cyber-matt-card" style={styles.statCard}>
               <span style={styles.statLabel} {...textPopProps}>TAMPER STATUS</span>
-              <span style={{ ...styles.statValue, color: '#f59e0b' }} {...textPopProps}>
+              <span style={{ ...styles.statValue, color: account.risk_tier.color }} {...textPopProps}>
                 {account.metrics.tamper_probability}
               </span>
             </div>

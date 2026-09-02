@@ -1,3 +1,4 @@
+// Author: Krish Gohil (25BLC1108)
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Canvas, useFrame } from '@react-three/fiber';
@@ -7,51 +8,22 @@ import * as THREE from 'three';
 import allNodes from '../data/mock_400_nodes.json';
 import { getRiskLevel, formatRiskScore } from '../utils/risk';
 
-// Deterministic pseudo-random generator seeded from a string, so the same
-// account always gets the same synthetic telemetry chart on every load,
-// but different accounts get different-looking data.
-function seededRandom(seed) {
-  let h = 0;
-  for (let i = 0; i < seed.length; i++) {
-    h = Math.imul(31, h) + seed.charCodeAt(i) | 0;
-  }
-  return function () {
-    h = Math.imul(h ^ (h >>> 15), h | 1);
-    h ^= h + Math.imul(h ^ (h >>> 7), h | 61);
-    return ((h ^ (h >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"];
 
 // Builds a 9-month baseline-vs-actual series whose severity reflects the
-// account's real risk_score: higher risk -> steeper drop-off, so the chart
-// actually tracks the account instead of always showing the same shape.
-function buildTelemetry(accountId, riskScore) {
-  const rand = seededRandom(accountId);
-  const baseLoad = 380 + rand() * 160; // 380-540 kWh baseline range
-  const dropStrength = 0.3 + riskScore * 0.7; // how hard usage falls off
-
-  return MONTHS.map((month, i) => {
-    const baseline = Math.round(baseLoad + (rand() - 0.5) * 40);
-    const progress = i / (MONTHS.length - 1); // 0 -> 1 across the year
-    const falloff = 1 - progress * dropStrength * (0.6 + rand() * 0.5);
-    const actual = Math.max(10, Math.round(baseline * Math.max(falloff, 0.05)));
-    return { month, baseline, actual };
+// account's real risk_score mathematically.
+function buildTelemetry(riskScore) {
+  const baseLoad = [450, 420, 410, 430, 440, 450, 445, 440, 445];
+  return baseLoad.map((expectedValue, index) => {
+    // The drop-off compounds over time based directly on the risk_score
+    const dropFactor = 1 - ((riskScore || 0) * (index / 8));
+    return {
+      month: MONTHS[index],
+      baseline: expectedValue,
+      actual: Math.max(0, Math.round(expectedValue * dropFactor))
+    };
   });
 }
-
-const DEFAULT_TEST_TELEMETRY = [
-  { month: "Jan", baseline: 410, actual: 405 },
-  { month: "Feb", baseline: 430, actual: 420 },
-  { month: "Mar", baseline: 395, actual: 380 },
-  { month: "Apr", baseline: 460, actual: 230 },
-  { month: "May", baseline: 485, actual: 165 },
-  { month: "Jun", baseline: 510, actual: 140 },
-  { month: "Jul", baseline: 530, actual: 130 },
-  { month: "Aug", baseline: 505, actual: 155 },
-  { month: "Sep", baseline: 470, actual: 120 }
-];
 
 function createGlowingParticleTexture() {
   const canvas = document.createElement('canvas');
@@ -83,7 +55,6 @@ function IntegratingCyberOrb({ isHovered, isLoaded }) {
   const coreRef = useRef(null);
   const count = 380;
 
-  // Track continuous integration progress (0 = dispersed entry, 1 = integrated sphere)
   const integrationProgress = useRef(0);
   const hoverDisperseFactor = useRef(0);
 
@@ -102,7 +73,6 @@ function IntegratingCyberOrb({ isHovered, isLoaded }) {
       const phi = Math.acos(2.0 * v - 1.0);
       const r = 2.1 + (Math.random() - 0.5) * 0.2;
 
-      // Target sphere position
       const x = r * Math.sin(phi) * Math.cos(theta);
       const y = r * Math.sin(phi) * Math.sin(theta);
       const z = r * Math.cos(phi);
@@ -111,7 +81,6 @@ function IntegratingCyberOrb({ isHovered, isLoaded }) {
       spherePos[i * 3 + 1] = y;
       spherePos[i * 3 + 2] = z;
 
-      // Initial wide dispersed positions when entering
       const scatterRadius = 8.0 + Math.random() * 6.0;
       scatter[i * 3] = (Math.random() - 0.5) * scatterRadius;
       scatter[i * 3 + 1] = (Math.random() - 0.5) * scatterRadius;
@@ -135,11 +104,9 @@ function IntegratingCyberOrb({ isHovered, isLoaded }) {
     const time = state.clock.getElapsedTime();
     const { x: mx, y: my } = state.pointer;
 
-    // 1. Calculate Entry Integration (from scattered field to unified orb)
     const targetIntegrate = isLoaded ? 1 : 0;
     integrationProgress.current = THREE.MathUtils.damp(integrationProgress.current, targetIntegrate, 2.5, delta);
 
-    // 2. Calculate Hover Dispersion
     const targetHover = isHovered ? 1 : 0;
     hoverDisperseFactor.current = THREE.MathUtils.damp(hoverDisperseFactor.current, targetHover, 3.2, delta);
 
@@ -156,12 +123,10 @@ function IntegratingCyberOrb({ isHovered, isLoaded }) {
       const targetY = spherePositions[idx + 1] + orbFlutter;
       const targetZ = spherePositions[idx + 2] + Math.cos(time * 1.4 + phase) * 0.08;
 
-      // Base coordinate moving from scatter to sphere
       const currentBaseX = THREE.MathUtils.lerp(initialScatter[idx], targetX, intFactor);
       const currentBaseY = THREE.MathUtils.lerp(initialScatter[idx + 1], targetY, intFactor);
       const currentBaseZ = THREE.MathUtils.lerp(initialScatter[idx + 2], targetZ, intFactor);
 
-      // Hover scatter offset
       const flyWanderX = Math.sin(time * 2.2 + phase) * 1.2;
       const flyWanderY = Math.cos(time * 2.6 + phase) * 1.2;
       const flyWanderZ = Math.sin(time * 1.8 + phase * 2.0) * 1.2;
@@ -175,7 +140,6 @@ function IntegratingCyberOrb({ isHovered, isLoaded }) {
     pointsRef.current.rotation.y = time * 0.08 + mx * 0.25;
     pointsRef.current.rotation.x = -my * 0.25;
 
-    // Connect Lines as Orb reaches high integration
     let lineVertexCount = 0;
     const maxDistance = 0.85;
     const linePosAttr = linesMeshRef.current.geometry.attributes.position.array;
@@ -287,7 +251,7 @@ function DynamicTelemetryGraph({ data, textPopProps }) {
   const padY = 30;
 
   const chartData = useMemo(() => {
-    const sourceData = (data && data.length > 0) ? data : DEFAULT_TEST_TELEMETRY;
+    const sourceData = (data && data.length > 0) ? data : buildTelemetry(0.94);
     return sourceData.map((d, i) => ({
       label: d.month || d.timestamp || d.date || `T-${i + 1}`,
       baseline: Number(d.baseline ?? d.expected ?? 400),
@@ -563,11 +527,9 @@ export default function AccountDetail() {
           match.primary_anomaly,
           `Risk score ${formatRiskScore(match.risk_score)} — ${tier.label} tier`
         ],
-        telemetry: buildTelemetry(match.account_id, match.risk_score)
+        telemetry: buildTelemetry(match.risk_score)
       });
     } else {
-      // Fallback demo values for an id that isn't in the dataset
-      // (e.g. someone typed a made-up account number into the URL).
       const tier = getRiskLevel(0.94);
       setAccount({
         account_id: id,
@@ -584,11 +546,10 @@ export default function AccountDetail() {
           "Weekend nighttime usage flattened to zero-load threshold",
           "Discrepancy detected against feeder transformer telemetry"
         ],
-        telemetry: DEFAULT_TEST_TELEMETRY
+        telemetry: buildTelemetry(0.94)
       });
     }
 
-    // Trigger dash entry movement & orb integration sequence
     const timer = setTimeout(() => {
       setIsLoaded(true);
     }, 60);

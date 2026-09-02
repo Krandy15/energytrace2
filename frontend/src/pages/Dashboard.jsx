@@ -1,3 +1,4 @@
+// Author: Krish Gohil (25BLC1108)
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Canvas, useFrame } from '@react-three/fiber';
@@ -6,6 +7,7 @@ import { BlendFunction } from 'postprocessing';
 import * as THREE from 'three';
 import CyberVectorMap from '../components/CyberVectorMap';
 import mockData from '../data/mock_400_nodes.json';
+import { getRiskLevel } from '../utils/risk'; // Ensure this path correctly points to your risk.js file
 
 class CyberAudioEngine {
   constructor() {
@@ -151,23 +153,26 @@ export default function Dashboard() {
   const [isMounted, setIsMounted] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
 
-  // FIXED: Removed the dangling block of code left over from the old API fetch
   useEffect(() => {
     const timer = setTimeout(() => setIsMounted(true), 50);
 
     const loadData = () => {
       try {
-        const mappedData = mockData.map((item) => ({
-          account_id: item.account_id,
-          feeder_id: item.feeder_zone,
-          risk_score: item.risk_score,
-          deviation: item.load_deviation,
-          loss_kwh: item.est_loss_kwh,
-          status: item.risk_score >= 0.8 ? 'Critical' : (item.risk_score >= 0.5 ? 'Elevated' : 'Normal'),
-          tamper_flag: item.primary_anomaly,
-          lat: item.latitude,
-          lng: item.longitude
-        }));
+        const mappedData = mockData.map((item) => {
+          // Unified logic: rely entirely on risk.js for status assignment
+          const riskInfo = getRiskLevel(item.risk_score); 
+          return {
+            account_id: item.account_id,
+            feeder_id: item.feeder_zone,
+            risk_score: item.risk_score,
+            deviation: item.load_deviation,
+            loss_kwh: item.est_loss_kwh,
+            status: riskInfo.label, 
+            tamper_flag: item.primary_anomaly,
+            lat: item.latitude,
+            lng: item.longitude
+          };
+        });
         setAccounts(mappedData);
       } catch (error) {
         console.error("Failed to load local data:", error);
@@ -187,8 +192,13 @@ export default function Dashboard() {
 
   const metrics = useMemo(() => {
     const total = accounts.length || 1;
-    const criticalCount = accounts.filter(a => (a.risk_score ?? 0) >= 0.8).length;
-    const elevatedCount = accounts.filter(a => (a.risk_score ?? 0) >= 0.5 && (a.risk_score ?? 0) < 0.8).length;
+    // Unified logic: calculate metrics using risk.js categories
+    const criticalCount = accounts.filter(a => getRiskLevel(a.risk_score).level === 'CRITICAL').length; 
+    const elevatedCount = accounts.filter(a => {
+      const lvl = getRiskLevel(a.risk_score).level;
+      return lvl === 'HIGH' || lvl === 'MEDIUM'; 
+    }).length;
+    
     const totalLossKwh = accounts.reduce((sum, a) => sum + (Number(a.loss_kwh) || 0), 0);
 
     return {
@@ -208,9 +218,11 @@ export default function Dashboard() {
         (item.tamper_flag || "").toLowerCase().includes(q);
 
       if (!matches) return false;
-      if (filter === "critical") return (item.risk_score ?? 0) >= 0.8;
-      if (filter === "elevated") return (item.risk_score ?? 0) >= 0.5 && (item.risk_score ?? 0) < 0.8;
-      if (filter === "normal") return (item.risk_score ?? 0) < 0.5;
+      
+      const riskLevel = getRiskLevel(item.risk_score).level; 
+      if (filter === "critical") return riskLevel === 'CRITICAL';
+      if (filter === "elevated") return riskLevel === 'HIGH' || riskLevel === 'MEDIUM';
+      if (filter === "normal") return riskLevel === 'LOW';
       return true;
     });
   }, [accounts, filter, searchQuery]);
@@ -252,7 +264,6 @@ export default function Dashboard() {
         }
       `}</style>
 
-      {/* 3D Cyber Matrix Canvas */}
       <div style={styles.canvasContainer}>
         <Canvas camera={{ position: [0, 2, 7.5], fov: 48 }} gl={{ antialias: true, toneMappingExposure: 1.25 }}>
           <color attach="background" args={['#02040a']} />
@@ -265,7 +276,6 @@ export default function Dashboard() {
       </div>
 
       <div className="cyber-dashboard-fade" style={styles.container}>
-        {/* Header */}
         <div style={styles.headerRow}>
           <div>
             <div style={styles.badgeLabel}>
@@ -279,7 +289,6 @@ export default function Dashboard() {
           </button>
         </div>
 
-        {/* Global Key Metrics */}
         <div style={styles.metricGrid}>
           <div style={styles.metricCard}>
             <span style={styles.metricTitle}>CRITICAL THEFT NODES</span>
@@ -311,7 +320,6 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* View Switcher Controls */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
           <div style={{ display: 'flex', gap: '10px' }}>
             <button
@@ -345,7 +353,6 @@ export default function Dashboard() {
           )}
         </div>
 
-        {/* Render Map or Table */}
         {viewMode === 'map' ? (
           <CyberVectorMap accounts={accounts} />
         ) : (
@@ -364,10 +371,8 @@ export default function Dashboard() {
               </thead>
               <tbody>
                 {filteredAccounts.map((node, i) => {
-                  const score = node.risk_score ?? 0;
-                  const isCritical = score >= 0.8;
-                  const isElevated = score >= 0.5 && !isCritical;
-                  const color = isCritical ? '#f43f5e' : isElevated ? '#f59e0b' : '#10b981';
+                  // Unified logic: generate table colors directly from risk.js
+                  const riskInfo = getRiskLevel(node.risk_score); 
 
                   return (
                     <tr
@@ -391,11 +396,11 @@ export default function Dashboard() {
                           fontSize: '0.78rem',
                           fontWeight: 700,
                           fontFamily: 'monospace',
-                          color,
-                          background: isCritical ? 'rgba(244, 63, 94, 0.18)' : isElevated ? 'rgba(245, 158, 11, 0.18)' : 'rgba(16, 185, 129, 0.18)',
-                          border: `1px solid ${color}`
+                          color: riskInfo.color,
+                          background: riskInfo.bgVar,
+                          border: `1px solid ${riskInfo.borderVar}`
                         }}>
-                          {(score * 100).toFixed(0)}% · {node.status.toUpperCase()}
+                          {(node.risk_score * 100).toFixed(0)}% · {node.status.toUpperCase()}
                         </span>
                       </td>
                       <td style={styles.td}>
